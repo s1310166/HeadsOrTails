@@ -6,10 +6,6 @@ public class HeadsOrTails {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        System.out.print("Who are you? \n> ");
-        String name = scanner.nextLine();
-        System.out.println("Hello, " + name + "!");
-
         System.out.println("Tossing a coin...");
 
         int headsCount = 0;
